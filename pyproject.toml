@@ -1,0 +1,11 @@
+[project]
+name = "logtop"
+version = "0.1.0"
+description = "统计日志 Top IP 的命令行工具"
+
+[project.scripts]
+logtop = "logtop:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
